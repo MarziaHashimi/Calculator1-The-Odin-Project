@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(to right, #00AAFF, #00FF6C );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    
+}
+.number,
+.operator {
+    padding: 10px, 10px;
+    font-size: 1em; 
+    background-color: #d1cece;
+    
+}
+
+#display {
+    grid-column: span 4;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: #d1cece;
+}
+
